@@ -3,10 +3,9 @@ function findMaxProduct(arr) {
       throw new Error("Input should be an array with at least two integers.");
     }
   
-    let max1 = Number.NEGATIVE_INFINITY;
-    let max2 = Number.NEGATIVE_INFINITY;
-    let min1 = Number.POSITIVE_INFINITY;
-    let min2 = Number.POSITIVE_INFINITY;
+    let maxProduct = arr[0];
+    let max        = arr[0];
+    let min        = arr[0];
   
     for (let i = 0; i < arr.length; i++) {
       const current = arr[i];
