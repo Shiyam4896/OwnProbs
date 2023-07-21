@@ -18,15 +18,12 @@ function findMaxProduct(arr) {
       min = Math.min(num,min*num);
   
     
-    const productWithPositiveIntegers = max1 * max2;
-    const productWithNegativeIntegers = min1 * min2;
-  
-    
-    return Math.max(productWithPositiveIntegers, productWithNegativeIntegers);
+      maxProduct = Math.max(maxRoduct,max);
   }
+  return maxPRoduct;
+}
   
-  
-  const arr = [3, 7, -2, -8, 5, -10];
-  const maxProduct = findMaxProduct(arr);
-  console.log("Maximum product:", maxProduct);
+  const nums = [3, 7, -2, -8, 5, -10];
+  const result = maxProduct(nums);
+  console.log("Maximum product:", result);
   
