@@ -8,22 +8,14 @@ function findMaxProduct(arr) {
     let min        = arr[0];
   
     for (let i = 0; i < arr.length; i++) {
-      const current = arr[i];
+      const num = arr[i];
   
-      if (current > max1) {
-        max2 = max1;
-        max1 = current;
-      } else if (current > max2) {
-        max2 = current;
-      }
+      if (num < 0 {
+        [max , min] = [min , max];
+      } 
   
-      if (current < min1) {
-        min2 = min1;
-        min1 = current;
-      } else if (current < min2) {
-        min2 = current;
-      }
-    }
+      max = Math.max(num,max*num);
+      min = Math.min(num,min*num);
   
     
     const productWithPositiveIntegers = max1 * max2;
