@@ -7,7 +7,7 @@ function minSubsetSum(arr) {
       globalMin = Math.min(globalMin, currentMin);
     }
   
-    return globalMin;
+    return Math.min(globalMin , totalSum);
   }
   
   const arr = [1, -2, 5, -3, -1];
