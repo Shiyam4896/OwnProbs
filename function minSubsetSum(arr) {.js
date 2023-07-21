@@ -12,5 +12,5 @@ function minSubsetSum(arr) {
   
   const arr = [1, -2, 5, -3, -1];
   const result = minSubsetSum(arr);
-  console.log("Minimum sum from subset:", result); // Output: -6
+  console.log("Minimum sum from subset:", result); 
   
